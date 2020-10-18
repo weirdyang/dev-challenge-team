@@ -16,16 +16,18 @@
     
     transition: all 1s ease-out;
 }
-.job-tag:hover{
-    color: #ff0000;
-}
 
 .name-tag{
+    font-weight: bolder;
     font-size: 2vh;
-    transition: all 1s ease-out;
+    transition: all 2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
 }
-.name-tag:hover{
-    color: #ff0000;
+.job-tag:hover,
+.name-tag:hover,
+.profile:hover{
+    text-shadow: 0 0 10px dimgrey !important;
+    transform: translateY(20px);
+    opacity: 0;
 }
 
 .image-tag{
@@ -36,4 +38,13 @@
 }
 .image-tag:hover{
     opacity: 0;
+}
+body{
+    padding: 20px;
+    margin-top: 20px;
+}
+.profile{
+    padding: 2em;
+    margin: 2em;
+    transition: all 4s cubic-bezier(0.755, 0.05, 0.855, 0.06);
 }
