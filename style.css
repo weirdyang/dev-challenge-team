@@ -1,0 +1,39 @@
+.job-tag {    
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+
+    margin-right: 5em;
+    
+    transition: all 1s ease-out;
+}
+.job-tag:hover{
+    color: #ff0000;
+}
+
+.name-tag{
+    font-size: 2vh;
+    transition: all 1s ease-out;
+}
+.name-tag:hover{
+    color: #ff0000;
+}
+
+.image-tag{
+    transition-delay: 1s;
+    transition-duration: 4s;
+    transition-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    transition-property: opacity;
+}
+.image-tag:hover{
+    opacity: 0;
+}

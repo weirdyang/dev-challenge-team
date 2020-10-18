@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello Bulma!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./index.js"></script>
+  <script defer>
+
+    window.addEventListener('DOMContentLoaded', (event) => {
+      const main = document.getElementById('main-container');
+      appData.people.forEach((person) => {
+        console.log(person);
+        main.appendChild(makeCard(person));
+      })
+
+    });
+  </script>
+</head>
+
+<body>
+  <section class="section">
+    <div id="main-container" class="columns is-mobile is-multiline is-centered">
+    </div>
+  </section>
+  <section class="footer">
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          © 2020 weirdyang
+        </p>
+      </div>
+    </footer>
+  </section>
+</body>
+
+</html>
