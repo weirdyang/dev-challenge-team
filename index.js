@@ -35,7 +35,7 @@ const appData = {
 
 const makeCard = function (person) {
     let card = document.createElement("div");
-    card.classList.add('column', 'is-half-mobile', 'is-one-third-tablet', 'is-one-third-desktop');
+    card.classList.add('column', 'is-half-mobile', 'is-one-third-tablet', 'is-one-third-desktop', 'person');
     card.innerHTML = `
   <div class="columns is-multiline is-centered">
     <div class="column">

@@ -12,6 +12,8 @@
 
 This my submission for the [My Team page challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U), with a spooky(?) twist :)
 
+![preview](./preview.gif)
+
 ### Built With
 
 HTML + vanilla JS + Bulma
